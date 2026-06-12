@@ -1,0 +1,31 @@
+# Structure of this project
+
+CLI_Tool/
+
+            CLI_Tool/
+                |
+                |-- main.py
+                |-- commands/
+                |      |
+                |      |-- todo_cmds.py
+                |      |-- grabber_cmds.py
+                |      |-- pwd_cmds
+                |      |-- sorter_cmds
+                |
+                |-- command_handler/
+                |      |
+                |      |-- grabber_handler.py
+                |      |-- todo_handler.py
+                |      |-- pwd_handler.py
+                |      |-- sorter_handler.py
+                |      
+                |-- core/
+                |      |
+                |      |-- todo.py
+                |      |-- grabber.py
+                |      |-- password_manager.py
+                |      |-- sorter.py
+                |
+                |-- data/
+                       |-- pwd.json
+                       |-- tasks.json
