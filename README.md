@@ -202,21 +202,6 @@ ghost pwd generate
 
 ghost sorter downloads
 ```
-
----
-
-# Why Ghost?
-
-Ghost aims to become an all-in-one CLI companion for:
-
-- Students
-- Developers
-- Cybersecurity learners
-- Linux users
-- Productivity enthusiasts
-
-Instead of creating many small tools, Ghost combines them into a single extensible framework.
-
 ---
 
 # Future Roadmap
