@@ -130,37 +130,3 @@ def pwd_strength(pwd: str) -> None:
     else:
         print(Fore.GREEN + "[ STRONG ] Password is strong!" + Fore.RESET)
         print(f"SCORE: {float(score)} / 10")
-
-
-
-
-if __name__ == "__main__":
-    #generate_password(int(input("Enter length: ")), input("Enter username: "), input("Enter appname: "), input("Enter flag: "))
-    pwd = gen_pwd(8)
-    pwd_strength(pwd)
-    store_pwd(pwd, "joshiakash514@gmail.com", "instagram", True)
-
-#def strength_checker(pwd):
-
-
-
-
-            
-
-
-
-
-
-
-
-
-
-
-
-# try:
-#     length = int(input('Enter length of password: '))
-#     print(f'Generated Password: {generate_password(length)}')
-
-# except ValueError:
-#     print('Error, Invalid input.')
-    
